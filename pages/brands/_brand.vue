@@ -5,6 +5,7 @@
 <script>
 export default {
   async asyncData({ params, payload }) {
+    // console.log("asyncData called");
     const brand = params.brand;
     console.log("_brand.vue asyncData: ", brand);
 
