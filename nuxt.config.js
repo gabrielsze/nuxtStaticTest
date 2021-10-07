@@ -31,7 +31,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    "@nuxt/image",
   ],
+
+  image: {
+    domains: ['https://firebasestorage.googleapis.com'],
+    alias: {
+      google: 'https://firebasestorage.googleapis.com'
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
