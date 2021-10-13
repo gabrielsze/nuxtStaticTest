@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <nuxt-img
+    <ik-image
       class="test"
-      src="https://firebasestorage.googleapis.com/v0/b/my-ar-project-1578038399492.appspot.com/o/deals_images%2FKFC%2Fassets%2FKFC_Logo?alt=media&token=5f9afab6-1b8b-41e1-ac2d-83d83cad039c"
-      sizes="sm:100px md:200px lg:500px"
+      src="https://firebasestorage.googleapis.com/v0/b/my-ar-project-1578038399492.appspot.com/o/deals_images%2FTempura%20Makino%2FTempura-Makino-Free-Egg-Tempura_1634105383.jpg?alt=media&token=20859f8e-fa52-4040-946b-35d70a469bce"
+      :transformation="[{ height: 300, width: 400 }, { rotation: 90 }]"
     />
 
     <div v-for="deal in deals_array" :key="deal.id">
@@ -46,7 +46,7 @@ export default {
   text-align: center;
 }
 
-.test{
+.test {
   height: 200px;
   width: 200px;
 }

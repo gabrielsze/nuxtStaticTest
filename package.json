@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.9.1",
+    "imagekitio-vue": "^1.0.9",
     "nuxt": "^2.15.3",
     "nuxt-edge": "^2.16.0-27162734.1455784"
   },
